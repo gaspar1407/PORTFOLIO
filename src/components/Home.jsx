@@ -4,10 +4,10 @@ import "./estilos/Home.css";
 import OverlayTrigger from "react-bootstrap/esm/OverlayTrigger";
 import Tooltip from "react-bootstrap/esm/Tooltip";
 import Footer from "./Footer";
-import fotoDogs1 from "./estilos/img/Dogs1.png";
-import fotoDogs2 from "./estilos/img/Dogs2.png";
-import fotoHF1 from "./estilos/img/HF1.png";
-import fotoHF2 from "./estilos/img/HF2.png";
+import fotoDogs1 from "./estilos/img/Dogs3.png";
+import fotoDogs2 from "./estilos/img/Dogs4.png";
+import fotoHF1 from "./estilos/img/HF4.png";
+import fotoHF2 from "./estilos/img/HF3.png";
 export default function Home() {
   return (
     <div className="todo">
