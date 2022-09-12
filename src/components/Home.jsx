@@ -141,14 +141,16 @@ export default function Home() {
             <div className="contenedorrr">
               <div>
                 <p className="tituloProyectos">
-                  <b style={{ fontWeight: "550" }}>Dogs App</b> es una Single
-                  Page Application realizada como proyecto individual para el
-                  bootcamp de Henry utilizando React para el fornt-end y Redux
-                  como state management. Todos los componentes fueron creados
-                  con CSS sin uso de librerias externas. La SPA consume datos de
-                  una API, a traves de un Back-end desarrollado en NodeJS
-                  utilizando Express agregando nuevas funcionalidades a la API
-                  original.
+                  <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                    Dogs App
+                  </b>{" "}
+                  es una Single Page Application realizada como proyecto
+                  individual para el bootcamp de Henry utilizando React para el
+                  fornt-end y Redux como state management. Todos los componentes
+                  fueron creados con CSS sin uso de librerias externas. La SPA
+                  consume datos de una API, a traves de un Back-end desarrollado
+                  en NodeJS utilizando Express agregando nuevas funcionalidades
+                  a la API original.
                 </p>
                 <div style={{ width: "50%", marginTop: "0" }}></div>
               </div>
@@ -190,9 +192,11 @@ export default function Home() {
                     marginTop: "0",
                   }}
                 >
-                  <b style={{ fontWeight: "550" }}>Henry Fitness!</b> es una
-                  aplicación, realizada en el proyecto grupal de Henry, que
-                  busca simplificar por una parte al usuario, con infomación
+                  <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                    Henry Fitness!
+                  </b>{" "}
+                  es una aplicación, realizada en el proyecto grupal de Henry,
+                  que busca simplificar por una parte al usuario, con infomación
                   (staff, actividades, dirección, etc.) y con la suscripción
                   tanto al gimnacio como a las actividades del mismo. Y por otra
                   parte al administrador, brindandole todas las herramientas
