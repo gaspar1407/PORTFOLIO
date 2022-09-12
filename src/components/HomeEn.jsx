@@ -79,7 +79,7 @@ export default function HomeEn() {
         </Link>
         <input type="checkbox" id="toggle" onClick={toggleTheme}></input>
         <label for="toggle" className="buttonDark"></label>
-        <NavLink to="/Home" className="Spanish">
+        <NavLink to="/" className="Spanish">
           <button className="boton">
             <img
               src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
