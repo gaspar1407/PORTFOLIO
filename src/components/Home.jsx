@@ -21,7 +21,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    localStorage.setItem("theme", theme);
+    /*   localStorage.setItem("theme", theme); */
     document.body.className = theme;
   }, [theme]);
 
