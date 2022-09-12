@@ -21,6 +21,7 @@
     cursor: pointer;
     transition: all 500ms;
     text-decoration: none !important;
+    transition: all 2s;
 }
 
 .light .boton{
@@ -34,6 +35,7 @@
     cursor: pointer;
     transition: all 500ms;
     text-decoration: none !important;
+    transition: all 2s;
 }
 .boton:hover{
     transform: scale(.95);
@@ -252,7 +254,8 @@
     display: grid;
     place-content: center;
     line-height: 0;
-    transition: background-color 1s, transform 1s ease-in;
+    /* transition: background-color 1s, transform 1s ease-in; */
+    transition: all 2s;
 }
 
 #toggle:checked + .buttonDark::after{
@@ -271,6 +274,7 @@
     border-top: 1px solid #84c95f ;
 
     text-decoration: none;
+    transition: all 2s;
 }
 
 .light .main-Footer{
@@ -282,23 +286,28 @@
     border-top: 1px solid #84c95f ;
 
     text-decoration: none;
+    transition: all 2s;
 }
 
 .light .redes-container .foot-btn {
     background-color: #84c95f;
     color: #23252E;
+    transition: all 2s;
     
 }
 
 .light .redes-container .foot-btn::before{
     background: linear-gradient(rgb(179, 179, 179), white);
+    transition: all 2s;
 
 }
 
 .light .redes-container .foot-btn:hover{
     color: #84c95f;
+    transition: all 2s;
 }
 
 .light .texto{
     background-color: #23252e26;
+    transition: all 2s;
 }
