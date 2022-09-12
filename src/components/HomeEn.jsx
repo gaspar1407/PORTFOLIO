@@ -8,9 +8,8 @@ import Circles from "./Circles";
 import { NavLink } from "react-router-dom";
 import Carrusel from "./Carrusel";
 import CarruselHf from "./CarruselHf";
-import "./estilos/Footer.css";
 
-export default function Home() {
+export default function HomeEn() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const toggleTheme = () => {
     if (theme === "light") {
@@ -24,7 +23,6 @@ export default function Home() {
     localStorage.setItem("theme", theme);
     document.body.className = theme;
   }, [theme]);
-
   return (
     <div className={`Home ${theme}`}>
       <Circles />
@@ -47,7 +45,7 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Presentación</button>
+          <button className="boton">Presentation</button>
         </Link>
         <Link
           to="section2"
@@ -57,7 +55,7 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Proyectos</button>
+          <button className="boton">Projects</button>
         </Link>
         <Link
           to="section3"
@@ -67,7 +65,7 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Tecnologías</button>
+          <button className="boton">Technologies</button>
         </Link>
         <Link
           to="section4"
@@ -77,31 +75,39 @@ export default function Home() {
           offset={-70}
           style={{ padding: "0 20px" }}
         >
-          <button className="boton">Contáctame</button>
+          <button className="boton">Contact me</button>
         </Link>
-
         <input type="checkbox" id="toggle" onClick={toggleTheme}></input>
         <label for="toggle" className="buttonDark"></label>
-        <NavLink to="/HomeEn" className="Spanish">
+        <NavLink to="/Home" className="Spanish">
           <button className="boton">
             <img
-              /*  */
-              src="https://cdn-icons-png.flaticon.com/512/197/197593.png"
-              alt="bandera de España"
+              src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+              alt="spanishFlag"
               className="imgSpanish"
             />
           </button>
         </NavLink>
       </nav>
       <div className="body">
-        <div className="contenedorPresentacion">
+        <div
+          className="contenedorPresentacion"
+          /*   style={{
+            backgroundImage: `url(https://ca.slack-edge.com/TPRS7H4PN-U0387NWK7QR-dafca4021140-512)`,
+            backgroundPosition: "100% -50%",
+            backgroundSize: "700px",
+            backgroundRepeat: "no-repeat",
+            height: "650px",
+            width: "90%",
+          }} */
+        >
           <div id="section1" className="presentacion">
             <div className="nombre">
-              <h3 className="titulo">Mi nombre es</h3>
+              <h3 className="titulo">My name is</h3>
               <h2 className="tituloNombre" id="magui">
                 GASPAR MUÑOZ
               </h2>
-              <h3 className="subtitulo">Soy Desarrollador Web Full Stack</h3>
+              <h3 className="subtitulo">I am a full stack web developer</h3>
             </div>
             <img
               src="https://ca.slack-edge.com/TPRS7H4PN-U0387NWK7QR-dafca4021140-512"
@@ -114,19 +120,17 @@ export default function Home() {
           <div /*  id="section1" */>
             <div>
               <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
-                Quién soy?
+                who I am?
               </h3>
               <div className="contenedorinfo">
                 <p className="texto">
-                  Soy desarrollador especializado como Front End Developer.
-                  Curioso, con ganas de aprender siempre cosas nuevas que me
-                  ayuden a crecer personal y profesionalmente cada día. Con
-                  excelente capacidad resolutiva, siempre buscando maneras
-                  rápidas y eficaces de solucionar los problemas, y con buena
-                  capacidad de liderazgo.
-                  <br />
-                  Inicié mi capacitación en la academia Henry y me sigo
-                  capacitando constantemente de manera autodidacta.
+                  I am a specialized developer as a Front End Developer.
+                  Curious, eager to always learn new things that Help me grow
+                  personally and professionally every day. With excellent
+                  resolution capacity, always looking for ways fast and
+                  effective in solving problems, and with good leadership.
+                  <br />I started my training at the Henry academy and I still
+                  constantly training in a self-taught way.
                 </p>
               </div>
             </div>
@@ -135,19 +139,21 @@ export default function Home() {
         <div id="section2">
           <div>
             <h3 className="quiensoy" style={{ marginTop: "30px" }}>
-              Proyectos:
+              Projects:
             </h3>
 
             <div className="contenedorrr">
               <div>
                 <p className="tituloProyectos">
-                  <b style={{ fontWeight: "550" }}>Dogs App</b> es una Single
-                  Page Application realizada como proyecto individual para el
-                  bootcamp de Henry utilizando React para el fornt-end y Redux
-                  como state management. Todos los componentes fueron creados
-                  con CSS sin uso de librerias externas. La SPA consume datos de
-                  una API, a traves de un Back-end desarrollado en NodeJS
-                  utilizando Express agregando nuevas funcionalidades a la API
+                  <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                    Dogs App
+                  </b>
+                  it's a single Page Application realized as an individual
+                  project for the Henry's bootcamp using React for the front-end
+                  and Redux as state management. All components were created
+                  with CSS without the use of external libraries. The SPA
+                  consumes data from an API, through a Back-end developed in
+                  NodeJS using Express adding new functionality to the API
                   original.
                 </p>
                 <div style={{ width: "50%", marginTop: "0" }}></div>
@@ -162,14 +168,13 @@ export default function Home() {
                 }}
               >
                 <Carrusel />
-
                 <a
                   href="https://dogs-app-client-ten.vercel.app/"
                   key="faltauno"
                   target="_blank"
                 >
                   <button className="botonVisitar" style={{ width: "400px" }}>
-                    Visitar Dogs App!
+                    Visit Dogs App!
                   </button>
                 </a>
               </div>
@@ -190,17 +195,19 @@ export default function Home() {
                     marginTop: "0",
                   }}
                 >
-                  <b style={{ fontWeight: "550" }}>Henry Fitness!</b> es una
-                  aplicación, realizada en el proyecto grupal de Henry, que
-                  busca simplificar por una parte al usuario, con infomación
-                  (staff, actividades, dirección, etc.) y con la suscripción
-                  tanto al gimnacio como a las actividades del mismo. Y por otra
-                  parte al administrador, brindandole todas las herramientas
-                  necesarias para el manejo del dia a dia (turnos, usuarios,
-                  profesionales, etc.). Cuenta con división de perfiles. Uno de
-                  administrador, otra de clientes y una mas para potenciales
-                  clientes, siendo las tres vistas totalmente diferentes y
-                  amoldándose a las necesidades de todos los tipos de usuarios.
+                  <b style={{ fontWeight: "550", color: "#84c95f" }}>
+                    Henry Fitness!
+                  </b>{" "}
+                  It's a application, made in Henry's group project, which seeks
+                  to simplify the user on the one hand, with information (staff,
+                  activities, management, etc.) and with the subscription both
+                  to the gym and to its activities. and on the other part to the
+                  administrator, providing all the tools necessary for
+                  day-to-day management (shifts, users, professionals, etc). It
+                  has profiles division. One of administrator, another for
+                  clients and one more for potential customers, the three views
+                  being totally different and adapting to the needs of all types
+                  of users.
                 </p>
                 <div style={{ width: "50%", marginTop: "0" }}></div>
               </div>
@@ -222,12 +229,13 @@ export default function Home() {
                   <button
                     className="botonVisitar"
                     style={{
+                      /*  marginTop: "80px", */
                       width: "400px",
                       marginBottom: "50px",
                       marginLeft: " 0px",
                     }}
                   >
-                    Visitar Henry Fitness!
+                    Visit Henry Fitness!
                   </button>
                 </a>
               </div>
@@ -239,7 +247,7 @@ export default function Home() {
           style={{ paddingTop: "180px", paddingBottom: "80px" }}
         >
           <div>
-            <h3 className="quiensoy">Tecnologías:</h3>
+            <h3 className="quiensoy">Technologies:</h3>
             <div className="contenedorTecnologias">
               <OverlayTrigger
                 key={"bottom"}
@@ -405,7 +413,7 @@ export default function Home() {
         </div>
         <div>
           <div>
-            <h3 className="quiensoy">Contáctame:</h3>
+            <h3 className="quiensoy">contact me:</h3>
             <div
               style={{
                 display: "flex",
@@ -454,8 +462,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div id="section4" className={`Footer ${theme}`}>
+      <div id="section4">
         <Footer />
       </div>
     </div>
