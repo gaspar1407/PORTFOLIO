@@ -298,13 +298,13 @@
 
 .light .redes-container .foot-btn::before{
     background: linear-gradient(rgb(179, 179, 179), white);
-    transition: all 2s;
+  /*   transition: all 2s; */
 
 }
 
 .light .redes-container .foot-btn:hover{
     color: #84c95f;
-    transition: all 2s;
+ /*    transition: all 2s; */
 }
 
 .light .texto{
