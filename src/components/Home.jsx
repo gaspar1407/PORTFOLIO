@@ -233,16 +233,17 @@ export default function Home() {
                   <b style={{ fontWeight: "550", color: "#84c95f" }}>
                     Henry Fitness!
                   </b>{" "}
-                  es una aplicación, realizada en el proyecto grupal de Henry,
-                  que busca simplificar por una parte al usuario, con infomación
-                  (staff, actividades, dirección, etc.) y con la suscripción
-                  tanto al gimnacio como a las actividades del mismo. Y por otra
-                  parte al administrador, brindandole todas las herramientas
-                  necesarias para el manejo del dia a dia (turnos, usuarios,
-                  profesionales, etc.). Cuenta con división de perfiles. Uno de
-                  administrador, otra de clientes y una mas para potenciales
-                  clientes, siendo las tres vistas totalmente diferentes y
-                  amoldándose a las necesidades de todos los tipos de usuarios.
+                  Henry Fitness! es una aplicación, realizada en el proyecto
+                  grupal de Henry, que busca simplificar por una parte al
+                  usuario, con información (staff, actividades, dirección, etc.)
+                  y con la suscripción tanto al gimnasio como a las actividades
+                  del mismo. Y por otra parte al administrador, brindándole
+                  todas las herramientas necesarias para el manejo del día a día
+                  (turnos, usuarios, profesionales, etc.). Cuenta con división
+                  de perfiles. Uno de administrador, otra de clientes y una mas
+                  para potenciales clientes, siendo las tres vistas totalmente
+                  diferentes y amoldándose a las necesidades de todos los tipos
+                  de usuarios.
                 </p>
                 <div style={{ width: "50%", marginTop: "0" }}></div>
               </div>
