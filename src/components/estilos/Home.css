@@ -52,7 +52,7 @@
     border-radius: 30%;
     border: 3px solid #84c95f;
     width: 38%;
-    height: 550px;
+    height: 600px;
     margin-top: 100px;
     margin-left: 20%;
     align-items: center;
@@ -124,7 +124,6 @@
     width: 80%;
     padding: 15px 20px;
     padding-left: 20px;
-    background-color: rgb(75, 74, 74);
     text-align: left;
     display: flex;
     justify-content: center;
@@ -310,4 +309,10 @@
 .light .texto{
     background-color: #23252e26;
     transition: all 2s;
+}
+
+.dark .texto{
+    background-color: rgb(75, 74, 74);
+    transition: all 2s;
+
 }

@@ -8,6 +8,7 @@ import Circles from "./Circles";
 import { NavLink } from "react-router-dom";
 import Carrusel from "./Carrusel";
 import CarruselHf from "./CarruselHf";
+import fotoGaspi from "./estilos/img/fotoGaspi1.png";
 
 export default function HomeEn() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -81,11 +82,7 @@ export default function HomeEn() {
         <label for="toggle" className="buttonDark"></label>
         <NavLink to="/" className="Spanish">
           <button className="boton">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
-              alt="spanishFlag"
-              className="imgSpanish"
-            />
+            <img src={fotoGaspi} alt="spanishFlag" className="imgSpanish" />
           </button>
         </NavLink>
       </nav>

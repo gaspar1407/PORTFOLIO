@@ -8,7 +8,7 @@ import Circles from "./Circles";
 import { NavLink } from "react-router-dom";
 import Carrusel from "./Carrusel";
 import CarruselHf from "./CarruselHf";
-import "./estilos/Footer.css";
+import fotoGaspi from "./estilos/img/fotoGaspi1.png";
 
 export default function Home() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -103,11 +103,7 @@ export default function Home() {
               </h2>
               <h3 className="subtitulo">Soy Desarrollador Web Full Stack</h3>
             </div>
-            <img
-              src="https://ca.slack-edge.com/TPRS7H4PN-U0387NWK7QR-dafca4021140-512"
-              alt="foto"
-              className="imgGaspi"
-            />
+            <img src={fotoGaspi} alt="foto" className="imgGaspi" />
           </div>
         </div>
         <div>
