@@ -116,18 +116,61 @@ export default function HomeEn() {
         <div>
           <div /*  id="section1" */>
             <div>
-              <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+              {/*  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
                 who I am?
-              </h3>
+              </h3> */}
               <div className="contenedorinfo">
                 <p className="texto">
-                  I am a specialized developer as a Front End Developer.
-                  Curious, eager to always learn new things that Help me grow
-                  personally and professionally every day. With excellent
-                  resolution capacity, always looking for ways fast and
-                  effective in solving problems, and with good leadership.
-                  <br />I started my training at the Henry academy and I still
-                  constantly training in a self-taught way.
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    Who i am?
+                  </h3>
+                  <p>
+                    🔹FullStack developer with FrontEnd orientation, with the
+                    ability to develop web pages and applications, scalable,
+                    modularized and optimized.⏱
+                  </p>
+                  <br />
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    why me?
+                  </h3>
+                  <p>
+                    🔸Beyond technical knowledge, I am a person curious, who
+                    loves to learn and teach. I consider myself a person with
+                    initiative, customer-oriented, creative and with good
+                    communication.📣
+                  </p>
+                  <br />
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    My Background?
+                  </h3>
+                  <p>
+                    ✔ Take Digital Marketing courses where I got a community
+                    manager certification.🎓
+                  </p>
+                  <br />
+                  <p>
+                    ✔ Before immersing myself in the IT world, I was always in
+                    jobs related to Marketing, where I learned to capture
+                    customer needs and acquired my main Soft Skills.💼
+                  </p>
+                  <br />
+                  <p>
+                    ✔ I entered the SoyHenry Bootcamp where, in addition to
+                    familiarize myself with the different technologies, I
+                    learned agile methodologies, to work together with other
+                    developers and communicate with professionals who are not of
+                    the IT category.👥
+                  </p>
+                  <br />
+                  <p>
+                    ✔ I am currently ready for my first experience work in the
+                    IT world! 😁 🔔
+                  </p>
+                  <br />
+                  <p>
+                    Do you think I am what you team are you looking for? Do not
+                    hesitate to contact me.
+                  </p>
                 </p>
               </div>
             </div>
@@ -135,7 +178,7 @@ export default function HomeEn() {
         </div>
         <div id="section2">
           <div>
-            <h3 className="quiensoy" style={{ marginTop: "30px" }}>
+            <h3 className="quiensooy" style={{ marginTop: "30px" }}>
               Projects:
             </h3>
 
@@ -244,7 +287,7 @@ export default function HomeEn() {
           style={{ paddingTop: "180px", paddingBottom: "80px" }}
         >
           <div>
-            <h3 className="quiensoy">Technologies:</h3>
+            <h3 className="quiensooy">Technologies:</h3>
             <div className="contenedorTecnologias">
               <OverlayTrigger
                 key={"bottom"}
@@ -410,7 +453,7 @@ export default function HomeEn() {
         </div>
         <div>
           <div>
-            <h3 className="quiensoy">contact me:</h3>
+            <h3 className="quiensooy">contact me:</h3>
             <div
               style={{
                 display: "flex",

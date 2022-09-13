@@ -112,12 +112,24 @@
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    padding-left: 30px;
+    margin-left: -7%;
     color: #84c95f;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 0;
-
 }
+
+.quiensooy{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 40px;
+    color: #84c95f;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
 .texto{
     color: #84c95f;
     font-size: 25px;

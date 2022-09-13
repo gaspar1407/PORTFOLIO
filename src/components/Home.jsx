@@ -109,20 +109,62 @@ export default function Home() {
         <div>
           <div /*  id="section1" */>
             <div>
-              <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+              {/*  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
                 Quién soy?
-              </h3>
+              </h3> */}
               <div className="contenedorinfo">
                 <p className="texto">
-                  Soy desarrollador especializado como Front End Developer.
-                  Curioso, con ganas de aprender siempre cosas nuevas que me
-                  ayuden a crecer personal y profesionalmente cada día. Con
-                  excelente capacidad resolutiva, siempre buscando maneras
-                  rápidas y eficaces de solucionar los problemas, y con buena
-                  capacidad de liderazgo.
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    Quién soy?
+                  </h3>
+                  <p>
+                    🔹Desarrollador FullStack con orientación FrontEnd, con la
+                    capacidad de desarrollar páginas y aplicaciones web,
+                    escalables, modularizadas y optimizadas. ⏱
+                  </p>
                   <br />
-                  Inicié mi capacitación en la academia Henry y me sigo
-                  capacitando constantemente de manera autodidacta.
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    Porque yo?
+                  </h3>
+                  <p>
+                    🔸Más allá de los conocimientos técnicos, soy una persona
+                    curiosa, que le encanta aprender y enseñar. Me considero una
+                    persona con iniciativa, orientado al cliente, creativo y con
+                    buena comunicación.📣
+                  </p>
+                  <br />
+                  <h3 className="quiensoy" style={{ marginBottom: "25px" }}>
+                    Mi Background?
+                  </h3>
+                  <p>
+                    ✔ Realice cursos de Marketing Digital donde obtuve una
+                    certificación de community manager. 🎓
+                  </p>
+                  <br />
+                  <p>
+                    ✔ Antes de sumergirme en el mundo IT siempre estuve en
+                    puestos laborales relacionados al Marketing, donde aprendí a
+                    captar necesidades del cliente y adquirí mis principales
+                    Softs Skills. 💼
+                  </p>
+                  <br />
+                  <p>
+                    ✔ Ingresé al Bootcamp soyHenry donde, además de
+                    familiarizarme con las distintas tecnologías, aprendí
+                    metodologías ágiles, a trabajar en conjunto con otros
+                    desarrolladores y comunicarme con profesionales que no sean
+                    del rubro IT. 👥
+                  </p>
+                  <br />
+                  <p>
+                    ✔ Actualmente me encuentro listo para mi primera experiencia
+                    laboral en el mundo IT!😁🔔
+                  </p>
+                  <br />
+                  <p>
+                    ¿Creés que soy lo que tu equipo está buscando? No dudes en
+                    contactarme.
+                  </p>
                 </p>
               </div>
             </div>
@@ -130,7 +172,7 @@ export default function Home() {
         </div>
         <div id="section2">
           <div>
-            <h3 className="quiensoy" style={{ marginTop: "30px" }}>
+            <h3 className="quiensooy" style={{ marginTop: "30px" }}>
               Proyectos:
             </h3>
 
@@ -239,7 +281,7 @@ export default function Home() {
           style={{ paddingTop: "180px", paddingBottom: "80px" }}
         >
           <div>
-            <h3 className="quiensoy">Tecnologías:</h3>
+            <h3 className="quiensooy">Tecnologías:</h3>
             <div className="contenedorTecnologias">
               <OverlayTrigger
                 key={"bottom"}
@@ -405,7 +447,7 @@ export default function Home() {
         </div>
         <div>
           <div>
-            <h3 className="quiensoy">Contáctame:</h3>
+            <h3 className="quiensooy">Contáctame:</h3>
             <div
               style={{
                 display: "flex",
