@@ -21,7 +21,6 @@
     cursor: pointer;
     transition: all 500ms;
     text-decoration: none !important;
-    transition: all 2s;
 }
 
 .light .boton{
@@ -35,7 +34,6 @@
     cursor: pointer;
     transition: all 500ms;
     text-decoration: none !important;
-    transition: all 2s;
 }
 .boton:hover{
     transform: scale(.95);
@@ -51,7 +49,7 @@
 .imgGaspi{
     border-radius: 30%;
     border: 3px solid #84c95f;
-    width: 38%;
+    width: 37%;
     height: 600px;
     margin-top: 100px;
     margin-left: 20%;
@@ -128,18 +126,15 @@
     font-size: 35px;
     margin-bottom: 40px;
 }
-
-
 .texto{
     color: #84c95f;
-    font-size: 25px;
-    width: 80%;
-    padding: 15px 20px;
-    padding-left: 20px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-weight: 550;
+    margin-bottom: 50px;
+    /* font-weight: 550; */
 }
 
 .contenedorinfo{
@@ -268,8 +263,9 @@
     display: grid;
     place-content: center;
     line-height: 0;
-    /* transition: background-color 1s, transform 1s ease-in; */
-    transition: all 2s;
+  /*   transition: background-color 2s, transform 2s ease-in; */
+  transition: all 2s;
+    
 }
 
 #toggle:checked + .buttonDark::after{
@@ -277,6 +273,7 @@
     background-color: #84c95f;
     border: 2px solid #84c95f;
     transform: translateX(50px) rotate(360deg);
+
 }
 
 .dark .main-Footer{
@@ -306,28 +303,26 @@
 .light .redes-container .foot-btn {
     background-color: #84c95f;
     color: #23252E;
-   /*  transition: all 2s; */
     
 }
 
 .light .redes-container .foot-btn::before{
     background: linear-gradient(rgb(179, 179, 179), white);
-  /*   transition: all 2s; */
 
 }
 
 .light .redes-container .foot-btn:hover{
     color: #84c95f;
- /*    transition: all 2s; */
 }
 
 .light .texto{
-    background-color: #23252e26;
+   /*  background-color: #23252e26; */
     transition: all 2s;
+
 }
 
 .dark .texto{
-    background-color: rgb(75, 74, 74);
+   /*  background-color: rgb(75, 74, 74); */
     transition: all 2s;
 
 }
