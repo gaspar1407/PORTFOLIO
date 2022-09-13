@@ -82,7 +82,11 @@ export default function HomeEn() {
         <label for="toggle" className="buttonDark"></label>
         <NavLink to="/" className="Spanish">
           <button className="boton">
-            <img src={fotoGaspi} alt="spanishFlag" className="imgSpanish" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+              alt="spanishFlag"
+              className="imgSpanish"
+            />
           </button>
         </NavLink>
       </nav>
@@ -106,11 +110,7 @@ export default function HomeEn() {
               </h2>
               <h3 className="subtitulo">I am a full stack web developer</h3>
             </div>
-            <img
-              src="https://ca.slack-edge.com/TPRS7H4PN-U0387NWK7QR-dafca4021140-512"
-              alt="foto"
-              className="imgGaspi"
-            />
+            <img src={fotoGaspi} alt="foto" className="imgGaspi" />
           </div>
         </div>
         <div>
