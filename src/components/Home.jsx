@@ -103,7 +103,7 @@ export default function Home() {
               </h2>
               <h3 className="subtitulo">Soy Desarrollador Web Full Stack</h3>
             </div>
-            <img src={fotoGaspi} alt="foto" className="imgGaspi" />
+            {/*   <img src={fotoGaspi} alt="foto" className="imgGaspi" /> */}
           </div>
         </div>
         <div>

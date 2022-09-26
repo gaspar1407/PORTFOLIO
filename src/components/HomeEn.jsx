@@ -110,7 +110,7 @@ export default function HomeEn() {
               </h2>
               <h3 className="subtitulo">I am a full stack web developer</h3>
             </div>
-            <img src={fotoGaspi} alt="foto" className="imgGaspi" />
+            {/*  <img src={fotoGaspi} alt="foto" className="imgGaspi" /> */}
           </div>
         </div>
         <div>
